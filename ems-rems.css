@@ -14,11 +14,15 @@ body {
   color: #34517f;
   margin: 3em auto;
   text-align: center;
-  background: linear-gradient(to left, #c2e59c, #64b3f4);
+  background: linear-gradient(to right, #c2e59c, #64b3f4);
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 1em;
   line-height: 1.6;
+}
+
+h1 {
+  font-size: 4em;
 }
 
 .subhead {
@@ -57,7 +61,7 @@ body {
 
 .col--em {}
 
-.col--em h1 {
+.col--em h2 {
   font-size: 2.5em;
 }
 
@@ -75,7 +79,7 @@ body {
 
 .col--rem {}
 
-.col--rem h1 {
+.col--rem h2 {
   font-size: 2.5rem;
 }
 
@@ -90,7 +94,7 @@ body {
    Call to action 
    ============ */
 
-h1 {
+h3 {
   font-size: 4em;
   margin: .5em 0;
   line-height: 1;
