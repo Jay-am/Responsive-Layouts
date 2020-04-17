@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.intro {
+  background: #23424A;
+  padding: 3em 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 750px;
+  margin: 5em;
+}
+
+h1 {
+  letter-spacing: 0.05em;
+}
+
+p {
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.intro-content {
+  width: 80%;
+  color: white;
+  margin-bottom: 2.5em;
+}
+
+a {
+  background: #38cfd9;
+  color: black;
+  font-size: .8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.65em 1.5em;
+  border: 1px solid #38cfd9;
+  border-radius: 80em;
+}
