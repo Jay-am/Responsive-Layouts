@@ -140,7 +140,7 @@ body {
   background-size: cover;
 }
 
-/* .one::before,
+.one::before,
 .two::before,
 .three::before,
 .four::before,
@@ -166,4 +166,4 @@ body {
 .five:hover::before,
 .six:hover::before {
   opacity: 0.2;
-} */
+}
