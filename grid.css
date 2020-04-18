@@ -11,13 +11,9 @@ body {
   font-size: 1.2rem;
   line-height: 1.45;
   display: flex;
-  width: 100vw;
-  hight: 100vh;
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
   background: #4f4f4f;
   flex: 1 1 20%;
   min-width: 300px;
@@ -29,13 +25,17 @@ body {
   margin-bottom: 2em;
 }
 
+@media (min-width: 1500px) {
+  .logo {
+    margin-bottom: 5em;
+  }
+}
+
 .logo span {
   font-weight: 700;
 }
 
 .nav-item {
-  display: flex;
-  flex-direction: column;
   color: #737373;
   text-decoration: none;
   font-size: 1.7rem;
@@ -43,9 +43,16 @@ body {
   margin-right: 2em;
 }
 
+@media (min-width: 1500px) {
+  .nav-item {
+    display: block;
+    margin: 7vh 0;
+  }
+}
+
 .main-content {
   flex: 1 1 80%;
-  padding: 3em;
+  /* padding: 3em; */
 }
 
 .portfolio {
