@@ -50,9 +50,14 @@ body {
   }
 }
 
+.nav-item.active {
+  color: #c4c4c4;
+}
+
 .main-content {
   flex: 1 1 80%;
-  /* padding: 3em; */
+  padding: 3em;
+  min-height: 100vh;
 }
 
 .portfolio {
