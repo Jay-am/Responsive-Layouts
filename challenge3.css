@@ -35,6 +35,7 @@ p {
 }
 
 .btn {
+  display: inline-block;
   background: #38cfd9;
   color: #23424A;
   font-size: .8em;
@@ -44,4 +45,9 @@ p {
   padding: 0.65em 1.5em;
   border: 1px solid #38cfd9;
   border-radius: 80em;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: .75;
 }
