@@ -30,6 +30,7 @@ p {
 
 .header__content {
   width: 80%;
+  max-width: 1024px;
   color: white;
   margin-bottom: 2.5em;
 }
