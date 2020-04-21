@@ -20,7 +20,6 @@ body {
   width: 100%;
   max-width: 1024px;
   margin: 5em auto;
-  background: greenyellow;
 }
 
 h1 {
@@ -38,14 +37,14 @@ p {
 
 .hero__container {
   display: flex;
+  justify-content: space-between;
 }
 
 .hero__content {
-  width: 70%;
+  width: 60%;
   max-width: 1024px;
   color: white;
   margin-bottom: 3.5em;
-  background: pink;
   align-items: center;
 }
 
@@ -71,4 +70,35 @@ p {
 
 .hero__img {
   align-self: center;
+  width: 35%;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__text {
+  width: 60%;
+  max-width: 1024px;
+}
+
+.main__text h2 {
+  color: #136C72;
+}
+
+.sidebar {
+  width: 35%;
+  background: #136C72;
+  color: white;
+  text-align: center;
+}
+
+.row {
+  padding: 1em 2em;
 }
