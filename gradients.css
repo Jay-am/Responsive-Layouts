@@ -57,7 +57,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F3EED9;
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent);
   min-height: 660px;
 }
 
