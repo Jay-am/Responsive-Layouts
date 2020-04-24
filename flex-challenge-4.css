@@ -42,24 +42,39 @@ p {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #F3EED9;
   min-height: 660px;
-  text-align: center;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
 }
 
 .hero p {
   font-weight: lighter;
   font-size: 1.125rem;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1em;
 }
 
-.section-2 {
+.section-1__content-paragraph {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1__content-text {
+  width: 45%;
+}
+
+.section-1__content-text .section-2 {
   background: #222C2A;
 }
 
