@@ -8,7 +8,15 @@ body {
 }
 
 .header {
-  background: url("image-01.jpg");
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url("https://unsplash.it/600/400"), grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  align-items: center;
 }
 
 .container {
