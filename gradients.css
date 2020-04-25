@@ -84,7 +84,7 @@ p {
 }
 
 .section-2 {
-  background: #222C2A;
+  background: linear-gradient(#824936, #222C2A);
   color: #fff;
 }
 
