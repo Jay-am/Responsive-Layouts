@@ -108,8 +108,10 @@ p {
 }
 
 .section-3 {
-  background: #824936;
+  background: radial-gradient(circle 20em at 25% 30%, rgb(211, 173, 48) 5%, #824936);
+  /* background: radial-gradient(radial-gradient(rgb(211, 173, 48),  rgb(92, 92, 236),)); */
   color: #fff;
+
 }
 
 .button-1 {
