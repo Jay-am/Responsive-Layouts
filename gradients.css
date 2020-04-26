@@ -92,3 +92,100 @@ p {
   background: #824936;
   color: #fff;
 }
+
+.button {
+  background-color: var(--button-background-color);
+  background-image: var(--button-background-image);
+  background-position: var(--button-background-position);
+  background-size: var(--button-background-size);
+  border: none;
+  border-radius: 35px/50%;
+  color: var(--button-color, #383d42);
+  cursor: pointer;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: var(--button-spacing);
+  outline: none;
+  padding: 15px 80px;
+  text-transform: uppercase;
+  transition: background var(transition-duration, 0.25s) ease-in-out;
+  will-change: background;
+}
+
+.button {
+  background-image: linear-gradient(90deg,
+      #9ec0f3,
+      #6051f0,
+      #3212e7);
+  background-position: 0 0;
+  background-size: 200% 100%;
+  color: #fff;
+  width: 10em;
+}
+
+.button:hover {
+  background-position: 100% 0;
+}
+
+
+.btn {
+  flex: 1 1 auto;
+  /* margin: 10px; */
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  text-align: center;
+  /* text-transform: uppercase; */
+  transition: 0.9s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 6em;
+  text-decoration: none;
+  width: 10em;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #69b2bd 0%, #2e86a7 51%, #3f679d 100%);
+  /* background-image: linear-gradient(to right, #E040FB, #00BCD4); */
+}
+
+
+.button-3 {
+  background-color: var(--button-background-color);
+  background-image: var(--button-background-image);
+  background-position: var(--button-background-position);
+  background-size: var(--button-background-size);
+  border: none;
+  border-radius: 6em;
+  color: var(--button-color, #383d42);
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin: var(--button-spacing);
+  outline: none;
+  padding: 0.75em 1.5em;
+  /* text-transform: uppercase; */
+  transition: background var(--button-transition-duration, 0.25s) ease-in-out;
+  will-change: background;
+  width: 10em;
+  text-decoration: none;
+}
+
+.button-3 {
+  --button-background-image: linear-gradient(90deg,
+      #26ffd5,
+      #05be99,
+      #3f52c2);
+  --button-background-position: 0 0;
+  --button-background-size: 200% 100%;
+  --button-color: #383d42;
+}
+
+.button-3:hover {
+  --button-background-position: 100% 0;
+}
