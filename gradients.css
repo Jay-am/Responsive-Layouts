@@ -73,12 +73,27 @@ p {
   margin: 0 auto;
 }
 
+.hero h1 {
+  margin-bottom: 1em;
+}
+
 .hero p {
   font-weight: lighter;
   font-size: 1.125rem;
   margin-bottom: 1.5em;
   text-transform: uppercase;
   letter-spacing: 1em;
+}
+
+.hero a {
+  margin-bottom: 1em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-1__content h2 {
@@ -103,15 +118,15 @@ p {
   background-position: var(--button-background-position);
   background-size: var(--button-background-size);
   border: none;
-  border-radius: 35px/50%;
+  border-radius: 6em;
   color: var(--button-color, #383d42);
   cursor: pointer;
   font-family: "Titillium Web", sans-serif;
-  font-size: 28px;
+  font-size: 1.2rem;
   letter-spacing: 1px;
   margin: var(--button-spacing);
   outline: none;
-  padding: 15px 80px;
+  padding: 0.5em 1em;
   text-transform: uppercase;
   transition: background var(transition-duration, 0.25s) ease-in-out;
   will-change: background;
@@ -125,7 +140,7 @@ p {
   background-position: 0 0;
   background-size: 200% 100%;
   color: #fff;
-  width: 10em;
+  width: 8em;
 }
 
 .button-1:hover {
@@ -196,13 +211,9 @@ p {
 
 
 
-
-
-
 /* Mixins */
 .btn {
   display: inline-block;
-  margin: 1em 0;
   padding: 0.5em 1em;
   background: transparent;
   border-radius: 1em;
@@ -242,22 +253,4 @@ p {
   border-image: linear-gradient(left, #3dade9, #bf2fcb);
   border-image-slice: 1;
   border-image-width: 2px;
-}
-
-/* Stage Styles */
-
-.buttons {
-  display: flex;
-  flex: 1 0 1;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 1em;
-}
-
-.btn {
-  align-self: center;
-}
-
-.btn.blue {
-  align-self: stretch;
 }
