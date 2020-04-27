@@ -134,6 +134,33 @@ header {
     display: block;
   }
 
+  .nav__item+.nav__item {
+    margin-left: 0;
+  }
+
+  .nav {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav__link {
+    display: inline-block;
+    padding-top: 0.5em;
+  }
+
+  .nav__link--button {
+    margin-top: 0.5em;
+    padding: 0.25em 1em;
+  }
+
+  .nav__list,
   .hero__text,
   .hero__img,
   .primary-content,
