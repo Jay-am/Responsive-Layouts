@@ -7,7 +7,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -53,20 +52,15 @@ h4 {
   padding: 5em 0;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.col {
-  width: 45%;
-}
+/* NAVIGATION */
 
 .nav {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
 }
+
+/* HERO */
 
 .hero-content p {
   font-family: 'Montserrat', sans-serif;
@@ -81,6 +75,8 @@ h4 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+/* MAIN */
 
 .section-1 p,
 .aside-text p {
@@ -99,6 +95,8 @@ h4 {
   padding: 0;
 }
 
+/* FOOTER */
+
 .aside-text h3 {}
 
 .headline-footer {
@@ -114,6 +112,28 @@ h4 {
   font-size: 1rem;
 }
 
-@media (min(700px)) {}
+/* MEDIAQUERIES */
 
-@media (min(1000px)) {}
+@media (min-width: 700px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav,
+  .hero,
+  .hero-content,
+  .section-1,
+  .section-1-text,
+  .section-2,
+  .main-content,
+    {}
+
+  @media (min-width: 1000px) {}
