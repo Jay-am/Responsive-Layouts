@@ -136,14 +136,12 @@ h4 {
   background: #2E323F;
 }
 
-.headline-footer {
+.headline-footer h1 {
+  color: #FFFFFF;
   font-family: 'Signika', sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
-  color: #FFFFFF;
+  font-size: 3.25rem;
 }
-
-.info-footer h4 {}
 
 .info-footer p {
   font-family: 'Montserrat', sans-serif;
