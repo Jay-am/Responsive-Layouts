@@ -16,48 +16,35 @@ img {
 }
 
 h1 {
-  font-family: 'Playfair';
-  font-size: 3.75rem;
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 5.625rem;
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  font-family: 'Playfair';
+  font-family: 'Signika', sans-serif;
   font-size: 2.25rem;
   margin-bottom: 1em;
   padding: 0;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5em;
+h3 {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem;
   margin: 0;
   padding: 0;
 }
 
-
-
-/* 2 Antarctican Headline Black - font-size: 5.625rem;
-
-4 Antarctican Headline Bold - font-size: 1.5rem;
-5 Antarctican Headline Bold - font-size: 1.875rem;
-Monserrat Regular - font-size: 1.125rem;
-6 Antarctican Headline Bold - font-size: 2.25rem;
-Monserrat Regular - font-size: 1.3125rem;
-7 | Antarctican Headline Bold - font-size: 1.875rem;
- Monserrat Regular - font-size: 1.125rem;
- 8 | Antarctican Headline Bold - font-size: 1.5rem;
- 9 | Antarctican Headline Bold - font-size: 1.3125rem;
- Monserrat Regular - font-size: 1rem;
-
- font-family: 'Montserrat', sans-serif;
- font-size: 1rem; */
-
- 
-
-
+h4 {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 1.3125rem;
+  margin: 0;
+  padding: 0;
+}
 
 .container {
   width: 80%;
@@ -81,10 +68,52 @@ Monserrat Regular - font-size: 1.3125rem;
   font-size: 1.125rem;
 }
 
-@media (min(700px)) {
-
+.hero-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
-@media (min(1000px)) {
-
+.btn {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
+
+.section-1 p,
+.aside-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3125rem;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.aside-text h3 {}
+
+.headline-footer {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.info-footer h4 {}
+
+.info-footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+@media (min(700px)) {}
+
+@media (min(1000px)) {}
