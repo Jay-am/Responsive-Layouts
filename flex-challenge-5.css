@@ -18,6 +18,7 @@ h1 {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 5.625rem;
+  color: #A59678;
   margin: 0;
   padding: 0;
 }
@@ -25,6 +26,7 @@ h1 {
 h2 {
   font-family: 'Signika', sans-serif;
   font-size: 2.25rem;
+  color: #A59678;
   margin-bottom: 1em;
   padding: 0;
 }
@@ -33,6 +35,7 @@ h3 {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 1.875rem;
+  color: #A59678;
   margin: 0;
   padding: 0;
 }
@@ -41,6 +44,7 @@ h4 {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 1.3125rem;
+  color: #A59678;
   margin: 0;
   padding: 0;
 }
@@ -58,9 +62,19 @@ h4 {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
+  background: #2E323F;
+  color: #6F737F;
 }
 
 /* HERO */
+
+.hero {
+  background: #3B4050;
+}
+
+.white {
+  color: #FFFFFF;
+}
 
 .hero-content p {
   font-family: 'Montserrat', sans-serif;
@@ -77,6 +91,10 @@ h4 {
 }
 
 /* MAIN */
+
+.section-1 {
+  background: #6F737F;
+}
 
 .section-1 p,
 .aside-text p {
@@ -95,14 +113,30 @@ h4 {
   padding: 0;
 }
 
+
+/* ASINDE */
+
+.aside-text {
+  background: #2E323F;
+}
+
+.aside-text h3,
+.aside-text p {
+  color: #FFFFFF;
+}
+
+
 /* FOOTER */
 
-.aside-text h3 {}
+.footer {
+  background: #2E323F;
+}
 
 .headline-footer {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  color: #FFFFFF;
 }
 
 .info-footer h4 {}
@@ -110,11 +144,15 @@ h4 {
 .info-footer p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
+  color: #6F737F;
 }
 
-/* MEDIAQUERIES */
+/* MEDIA QUERIES */
 
-@media (min-width: 700px) {
+@media (min-width: 700px) {}
+
+@media (min-width: 1000px) {
+
   .row {
     display: flex;
     justify-content: space-between;
@@ -135,5 +173,4 @@ h4 {
   .section-2,
   .main-content,
     {}
-
-  @media (min-width: 1000px) {}
+}
