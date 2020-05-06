@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  font-family: 'Playfair';
+  font-size: 3.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Playfair';
+  font-size: 2.25rem;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* 2 Antarctican Headline Black - font-size: 5.625rem;
+
+4 Antarctican Headline Bold - font-size: 1.5rem;
+5 Antarctican Headline Bold - font-size: 1.875rem;
+Monserrat Regular - font-size: 1.125rem;
+6 Antarctican Headline Bold - font-size: 2.25rem;
+Monserrat Regular - font-size: 1.3125rem;
+7 | Antarctican Headline Bold - font-size: 1.875rem;
+ Monserrat Regular - font-size: 1.125rem;
+ 8 | Antarctican Headline Bold - font-size: 1.5rem;
+ 9 | Antarctican Headline Bold - font-size: 1.3125rem;
+ Monserrat Regular - font-size: 1rem;
+
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1rem; */
+
+ 
+
+
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: 45%;
+}
+
+.nav {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+@media (min(700px)) {
+
+}
+
+@media (min(1000px)) {
+
+}
