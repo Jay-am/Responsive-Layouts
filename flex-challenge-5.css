@@ -14,10 +14,16 @@ img {
   display: block;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 5.625rem;
+  line-height: 1;
   color: #A59678;
   margin: 0;
   padding: 0;
@@ -53,7 +59,7 @@ h4 {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  /* padding: 5em 0; */
+  padding: 8em 0 5em 0;
 }
 
 /* NAVIGATION */
@@ -70,8 +76,20 @@ h4 {
   color: #6F737F;
 }
 
-.nav-1 {
-  padding-bottom: 0.25em;
+.nav-content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-1,
+.nav-2 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items-1 {
+  margin-bottom: 0.25em;
 }
 
 .nav__item {
@@ -82,16 +100,12 @@ h4 {
   padding-bottom: 0.5em;
 }
 
-.nav__link {
-  display: inline;
-}
-
 .btn-nav {
   font-family: 'Signika', sans-serif;
   background: #A59678;
   border: 1px solid #A59678;
   border-radius: 60rem;
-  padding: 0.5em 1em;
+  padding: 0.25em 1em;
 }
 
 /* HERO */
@@ -104,11 +118,15 @@ h4 {
   color: #FFFFFF;
 }
 
+.hero-content {
+  align-items: flex-start;
+}
+
 .hero-content p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   line-height: 1.5em;
-  margin: 0;
+  margin-bottom: 1em;
   padding: 0;
 }
 
@@ -120,12 +138,20 @@ h4 {
   background: #A59678;
   border: 1px solid #A59678;
   border-radius: 60rem;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  margin-bottom: 2em;
 }
 
 /* MAIN */
 
 .section-1 {
-  background: #6F737F;
+  background: rgb(231, 230, 230);
+  text-align: center;
+}
+
+.section-1 h3 {
+  padding-bottom: 0.5em;
 }
 
 .section-1 p,
@@ -134,7 +160,7 @@ h4 {
   font-size: 1.125rem;
   line-height: 1.5em;
   margin: 0;
-  padding: 0;
+  padding-bottom: 3em;
 }
 
 .main-content p {
@@ -142,19 +168,31 @@ h4 {
   font-size: 1.3125rem;
   line-height: 1.5em;
   margin: 0;
-  padding: 0;
+  padding-bottom: 3em;
+}
+
+.main-content img {
+  margin-bottom: 3em;
 }
 
 
-/* ASINDE */
+/* ASIDE */
+
+.aside {
+  margin-bottom: 4em;
+}
 
 .aside-text {
   background: #2E323F;
+  padding: 3em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .aside-text h3,
 .aside-text p {
   color: #FFFFFF;
+  padding: 0;
 }
 
 
@@ -192,7 +230,10 @@ h4 {
   .col {
     display: flex;
     flex-direction: column;
-    align-items: center;
+  }
+
+  .section-1-text+.section-1-text {
+    margin-left: 8em;
   }
 
   .nav,
