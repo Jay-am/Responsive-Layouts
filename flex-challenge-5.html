@@ -16,33 +16,43 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
-        <div class="nav-content row">
-          <a href="#"
-            ><img
-              src="PikPng.com_nike-png-white_3558029.png"
-              alt="Logo"
-              class="logo"
-          /></a>
-          <div class="nav-items">
-            <ul class="nav-1 nav-items-1">
-              <li class="nav__item"><a href="#" class="nav__link"></a>Home</li>
-              <li class="nav__item"><a href="#" class="nav__link"></a>About</li>
-              <li class="nav__item">
-                <a href="#" class="nav__link"></a>Content
-              </li>
-            </ul>
-            <ul class="nav-2">
-              <li class="nav__item">
-                <a href="#" class="nav__link"></a>Sign in
-              </li>
-              <li class="nav__item btn-nav">
-                <a href="#" class="nav__link"></a>Sign up
-              </li>
-            </ul>
+      <div class="nav__background">
+        <div class="container row">
+          <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+          </button>
+          <div class="nav__content">
+            <a class="logo" href="#">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg"
+                alt=""
+              />
+            </a>
+            <nav class="nav">
+              <ul class="nav__list nav__list--primary">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Contact</a>
+                </li>
+              </ul>
+              <ul class="nav__list nav__list--secondary">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Sign In</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--button">Sign up</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </nav>
+      </div>
+
       <div class="hero">
         <div class="container row">
           <div class="hero-content col">
@@ -201,5 +211,6 @@
         </div>
       </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>

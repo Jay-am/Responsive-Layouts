@@ -59,54 +59,125 @@ h4 {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 8em 0 5em 0;
+  padding: 5em 0 3em 0;
+  position: relative;
 }
 
 /* NAVIGATION */
 
 .logo {
-  width: 6em;
+  height: 30px;
+  align-content: center;
+}
+
+.nav__background {
+  width: 100%;
+  background: #2E323F;
+}
+
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0em;
+  border-radius: 50%;
+  background: #2E323F;
+  color: white;
+  transition: opacity 250ms ease;
+  position: absolute;
+  top: 50;
+  left: 20;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
 }
 
 .nav {
-  font-family: 'Signika', sans-serif;
-  font-weight: bold;
-  font-size: 1.125rem;
-  background: #2E323F;
-  color: #6F737F;
+  visibility: hidden;
+  height: 0;
+  position: absolute;
 }
 
-.nav-content {
-  width: 80%;
-  max-width: 1200px;
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
+
+.nav__content {
   margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
-.nav-1,
-.nav-2 {
+.nav__list {
+  list-style: none;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.nav-items-1 {
-  margin-bottom: 0.25em;
+.nav__list--primary {
+  margin-bottom: 2em;
 }
 
 .nav__item {
-  list-style: none;
-  text-transform: uppercase;
-  padding: 0;
-  text-align: center;
-  padding-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
-.btn-nav {
+.nav__link {
+  text-decoration: none;
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #6F737F;
+  text-transform: uppercase;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: 0.75;
+}
+
+.nav__link--button {
   font-family: 'Signika', sans-serif;
   background: #A59678;
   border: 1px solid #A59678;
   border-radius: 60rem;
   padding: 0.25em 1em;
 }
+
 
 /* HERO */
 
@@ -212,6 +283,7 @@ h4 {
   font-weight: bold;
   font-size: 3.25rem;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .info-footer h4 {
@@ -249,6 +321,16 @@ h4 {
 @media (min-width: 700px) {}
 
 @media (min-width: 1000px) {
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    display: flex;
+    height: auto;
+  }
 
   .row {
     display: flex;
