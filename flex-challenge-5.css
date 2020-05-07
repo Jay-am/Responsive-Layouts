@@ -202,18 +202,47 @@ h4 {
   background: #2E323F;
 }
 
+.information {
+  margin-bottom: 2em;
+}
+
 .headline-footer h1 {
   color: #FFFFFF;
   font-family: 'Signika', sans-serif;
   font-weight: bold;
   font-size: 3.25rem;
+  margin-bottom: 1em;
+}
+
+.info-footer h4 {
+  margin-bottom: 1em;
 }
 
 .info-footer p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: #6F737F;
+  padding-bottom: 1.5em;
 }
+
+.footer-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+.footer-item {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #6F737F;
+  line-height: 2;
+}
+
+.footer-link {}
 
 /* MEDIA QUERIES */
 
