@@ -53,10 +53,14 @@ h4 {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 5em 0;
+  /* padding: 5em 0; */
 }
 
 /* NAVIGATION */
+
+.logo {
+  width: 6em;
+}
 
 .nav {
   font-family: 'Signika', sans-serif;
@@ -66,8 +70,28 @@ h4 {
   color: #6F737F;
 }
 
-.logo {
-  width: 6em;
+.nav-1 {
+  padding-bottom: 0.25em;
+}
+
+.nav__item {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.nav__link {
+  display: inline;
+}
+
+.btn-nav {
+  font-family: 'Signika', sans-serif;
+  background: #A59678;
+  border: 1px solid #A59678;
+  border-radius: 60rem;
+  padding: 0.5em 1em;
 }
 
 /* HERO */
