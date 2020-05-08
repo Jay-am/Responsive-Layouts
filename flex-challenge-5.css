@@ -86,8 +86,6 @@ h4 {
   color: white;
   transition: opacity 250ms ease;
   position: absolute;
-  top: 50;
-  left: 20;
 }
 
 .nav-toggle:focus,
